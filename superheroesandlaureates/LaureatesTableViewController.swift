@@ -21,6 +21,7 @@ class LaureatesTableViewController: UITableViewController {
             self.tableView.reloadData()
         }
     }
+    //Function tableView 
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         return "LAUREATES"
     }
