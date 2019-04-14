@@ -15,6 +15,14 @@
 		3FF885932262AB2D0070A656 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF885912262AB2D0070A656 /* LaunchScreen.storyboard */; };
 		3FF8859E2262AB2D0070A656 /* superheroesandlaureatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF8859D2262AB2D0070A656 /* superheroesandlaureatesTests.swift */; };
 		3FF885A92262AB2D0070A656 /* superheroesandlaureatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF885A82262AB2D0070A656 /* superheroesandlaureatesUITests.swift */; };
+		3FF885B72262AC370070A656 /* SuperHeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF885B62262AC370070A656 /* SuperHeros.swift */; };
+		3FF885B92262AC660070A656 /* Laureates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF885B82262AC660070A656 /* Laureates.swift */; };
+		3FF885BB2262ACC70070A656 /* SuperHerosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF885BA2262ACC70070A656 /* SuperHerosTableViewController.swift */; };
+		3FF885BD2262ACDC0070A656 /* LaureatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF885BC2262ACDC0070A656 /* LaureatesTableViewController.swift */; };
+		3FF885BF2262AD6C0070A656 /* icons8-super-hero-female-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF885BE2262AD6C0070A656 /* icons8-super-hero-female-36.png */; };
+		3FF885C12262AD820070A656 /* icons8-einstein-36.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FF885C02262AD820070A656 /* icons8-einstein-36.png */; };
+		3FF885C32262AE130070A656 /* laureates.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FF885C22262AE130070A656 /* laureates.json */; };
+		3FF885C52262AE200070A656 /* squad.json in Resources */ = {isa = PBXBuildFile; fileRef = 3FF885C42262AE200070A656 /* squad.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		3FF885A42262AB2D0070A656 /* superheroesandlaureatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = superheroesandlaureatesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF885A82262AB2D0070A656 /* superheroesandlaureatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superheroesandlaureatesUITests.swift; sourceTree = "<group>"; };
 		3FF885AA2262AB2D0070A656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FF885B62262AC370070A656 /* SuperHeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHeros.swift; sourceTree = "<group>"; };
+		3FF885B82262AC660070A656 /* Laureates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laureates.swift; sourceTree = "<group>"; };
+		3FF885BA2262ACC70070A656 /* SuperHerosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHerosTableViewController.swift; sourceTree = "<group>"; };
+		3FF885BC2262ACDC0070A656 /* LaureatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaureatesTableViewController.swift; sourceTree = "<group>"; };
+		3FF885BE2262AD6C0070A656 /* icons8-super-hero-female-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-super-hero-female-36.png"; sourceTree = "<group>"; };
+		3FF885C02262AD820070A656 /* icons8-einstein-36.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-einstein-36.png"; sourceTree = "<group>"; };
+		3FF885C22262AE130070A656 /* laureates.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = laureates.json; sourceTree = "<group>"; };
+		3FF885C42262AE200070A656 /* squad.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = squad.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +119,14 @@
 				3FF885882262AB2C0070A656 /* FirstViewController.swift */,
 				3FF8858A2262AB2C0070A656 /* SecondViewController.swift */,
 				3FF8858C2262AB2C0070A656 /* Main.storyboard */,
+				3FF885B62262AC370070A656 /* SuperHeros.swift */,
+				3FF885BA2262ACC70070A656 /* SuperHerosTableViewController.swift */,
+				3FF885BE2262AD6C0070A656 /* icons8-super-hero-female-36.png */,
+				3FF885C02262AD820070A656 /* icons8-einstein-36.png */,
+				3FF885C22262AE130070A656 /* laureates.json */,
+				3FF885BC2262ACDC0070A656 /* LaureatesTableViewController.swift */,
+				3FF885B82262AC660070A656 /* Laureates.swift */,
+				3FF885C42262AE200070A656 /* squad.json */,
 				3FF8858F2262AB2D0070A656 /* Assets.xcassets */,
 				3FF885912262AB2D0070A656 /* LaunchScreen.storyboard */,
 				3FF885942262AB2D0070A656 /* Info.plist */,
@@ -234,7 +258,11 @@
 			files = (
 				3FF885932262AB2D0070A656 /* LaunchScreen.storyboard in Resources */,
 				3FF885902262AB2D0070A656 /* Assets.xcassets in Resources */,
+				3FF885BF2262AD6C0070A656 /* icons8-super-hero-female-36.png in Resources */,
+				3FF885C12262AD820070A656 /* icons8-einstein-36.png in Resources */,
+				3FF885C32262AE130070A656 /* laureates.json in Resources */,
 				3FF8858E2262AB2C0070A656 /* Main.storyboard in Resources */,
+				3FF885C52262AE200070A656 /* squad.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FF8858B2262AB2C0070A656 /* SecondViewController.swift in Sources */,
+				3FF885BB2262ACC70070A656 /* SuperHerosTableViewController.swift in Sources */,
+				3FF885B92262AC660070A656 /* Laureates.swift in Sources */,
 				3FF885872262AB2C0070A656 /* AppDelegate.swift in Sources */,
+				3FF885BD2262ACDC0070A656 /* LaureatesTableViewController.swift in Sources */,
 				3FF885892262AB2C0070A656 /* FirstViewController.swift in Sources */,
+				3FF885B72262AC370070A656 /* SuperHeros.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
